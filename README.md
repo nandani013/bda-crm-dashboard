@@ -132,4 +132,15 @@ docker compose up --build -d
 - Set `VITE_API_URL` env var to your Render backend URL, e.g. `https://bda-crm-dashboard.onrender.com/api`.
 - Build command: `npm run build` (outputs to `dist/`).
 
+![Home page mockup](assets/home_page_mockup.png)
+
+## Screenshots
+
+![Screenshot 1](assets/screenshot-1.png)
+![Screenshot 2](assets/screenshot-2.png)
+![Screenshot 3](assets/screenshot-3.png)
+![Screenshot 4](assets/screenshot-4.png)
+![Screenshot 5](assets/screenshot-5.png)
+![Screenshot 6](assets/screenshot-6.png)
+
 *ManufactureFlow CRM – modern, scalable, and ready for production.*
