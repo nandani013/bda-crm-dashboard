@@ -117,5 +117,19 @@ docker compose up --build -d
 - Connect Vercel to the `frontend` folder (auto‑detects Vite).
 - Connect Render (or Heroku) to the `backend` folder, set the start command to `node server.js` and add the required env vars.
 
----
+### Live Demo
+- https://bda-crm-dashboard-gds3.vercel.app---
+# Deployment Instructions
+
+## Live Demo
+- https://bda-crm-dashboard-gds3.vercel.app
+
+## Backend (Render)
+- Add `FRONTEND_URL` env var on Render: `https://bda-crm-dashboard-gds3.vercel.app`
+- Ensure `MONGODB_URI` and `JWT_SECRET` are set.
+
+## Frontend (Vercel)
+- Set `VITE_API_URL` env var to your Render backend URL, e.g. `https://bda-crm-dashboard.onrender.com/api`.
+- Build command: `npm run build` (outputs to `dist/`).
+
 *ManufactureFlow CRM – modern, scalable, and ready for production.*
